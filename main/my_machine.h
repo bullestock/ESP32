@@ -29,7 +29,7 @@
 //#define BOARD_PROTONEER_3XX           //
 //#define BOARD_FYSETC_E4               //
 //#define BOARD_XPRO_V5                 //
-//#define BOARD_MKS_DLC32_V2P0          //
+#define BOARD_MKS_DLC32_V2P0          //
 //#define BOARD_MKS_DLC32_MAX_V1        // Has a ESP32-S3 MCU
 //#define BOARD_MKS_TINYBEE_V1          //
 //#define BOARD_CNC3040                 //
@@ -163,3 +163,7 @@
 //#define NETWORK_WEBSOCKET_PORT  80
 #endif // HTTP_ENABLE
 #endif // WIFI_ENABLE
+
+#define SERIAL1_PORT
+#define UART1_RX_PIN            GPIO_NUM_33
+#define UART1_TX_PIN            GPIO_NUM_26
