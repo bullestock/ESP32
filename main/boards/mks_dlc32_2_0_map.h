@@ -129,3 +129,7 @@
 #define I2C_SCL             GPIO_NUM_4
 #define I2C_CLOCK           100000
 #endif
+
+#undef AUXINPUT0_PIN
+#undef AUXOUTPUT1_PIN
+

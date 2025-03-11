@@ -165,5 +165,6 @@
 #endif // WIFI_ENABLE
 
 #define SERIAL1_PORT
-#define UART1_RX_PIN            GPIO_NUM_33
-#define UART1_TX_PIN            GPIO_NUM_26
+#define SERIAL_STREAM 1
+#define UART1_RX_PIN            GPIO_NUM_33 // EXP_1,8 (LCD_RS)
+#define UART1_TX_PIN            GPIO_NUM_26 // EXP_1,5 (LCD_TOUCH_CS_0)
