@@ -177,6 +177,7 @@
 #endif // HTTP_ENABLE
 #endif // WIFI_ENABLE
 
+#define SPINDLE0_ENABLE         SPINDLE_PWM0
 #define SERIAL1_PORT
 #define SERIAL_STREAM 1
 #define UART1_RX_PIN            GPIO_NUM_33 // EXP_1,8 (LCD_RS)
